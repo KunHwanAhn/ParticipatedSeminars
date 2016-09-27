@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang=en-GB>
+<head>
+  <meta charset="utf-8">
+  <title>ServiceWorker for GDG Meetup</title>
+  <meta http-equiv=X-UA-Compatible content="IE=edge"></meta>
+
+</head>
+<body>
+  <div id="container">
+    <h1>남자 연예인</h1>
+    <img src="/profile/anonymous.jpg">
+  </div>
+
+  <script type="text/javascript">
+    if ("ServiceWorker" in navigator) {
+      navigator.ServiceWorker.register("sw.js").then(function (reg) {
+        // :)
+      }).catch(function () {
+        // :/
+      });
+    }
+  </script>
+</body>
+</html>

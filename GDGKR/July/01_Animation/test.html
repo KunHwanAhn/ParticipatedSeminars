@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+<!--   애니메이션의 구조
+애니메이션 사용법
+실제 사용하기
+
+애니메이션 = A에서 B로 움직이는 과정을 스무스하게 하는 것
+
+  $(“div”).animate({
+    “left”: “500px"
+  }, 100);
+
+JQuery 애니메이션
+JavaScript 애니메이션
+ - 성능보장이 되지 않음...
+ - 스타일을 계속 자바스크립트로 바꿔주는 형태...
+
+https://github.com/web-animations/web-animations-js
+Bezier-Curve http://cubic-bezier.com/#.17,.67,.83,.67
+W3C Animation Spec https://www.w3.org/TR/web-animations/#web-animations-model-overview
+ - 대부분 Browser 개발자 또는 성능에 민감할 경우 참조하면 좋다...(?)
+애니메이션의 전제조건
+- 시간 (몇초동안) - 타이밍 모델
+  - 키프레임 (애니메이션의 전체 시간에서 특정시점을 지정)
+  - 키프레임의 그룹 (keyframes) = Web에서의 애니메이션
+- 어떤걸 변화시킬것인가? (CSS) - 애니메이션 모델
+
+애니메이션의 구현체
+ - CSS 애니메이션 <- 오늘의 메인 주제!!, CSS 애니메이션을 주로 설명
+  - 
+ - JavaScript 애니메이션
+  - Browser 구현체
+  - 폴리머 0.5qjwjs (Polyfill) <- Google 제공..
+  - https://github.com/web-animations/web-animations-js
+  - Chrome 52버전 이후부터는 Native 지원, 하지만...지원하는게 많지는 않다...
+  - Firefox Develper Edition
+
+정리
+ - 애니메이션은 타이밍모델과 애니메이션 모델로 구성한다.
+ - 타이밍모델 = 시간, 시점
+ - 애미네이션모델 = 뭘 어떻게 변경시킬 건지 (CSS)
+
+ CSS, API (polyfill) <- 강력추천, div 1만개를 애니메이션 해봤더니 40프레임 정도만,,,저하가 있었다. 쓸만함!
+ CSS Animation 모바일에서는 그냥써도 크게 무관...
+ API는 되도록이면 폴리필과 함께써라!...지원율을 100% 믿지 마라....
+
+ CSS의 "after"라는 속성....
+
+ -->
+
+<div class="redBox"></div>
+<div class="greenBox"></div>
+<div class="blueBox"></div>
+
+<style type="text/css">
+  div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-name: moveRight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+  .redBox {
+    background: red;
+    animation-name: moveRight;
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .greenBox {
+    background: green;
+    animation-name: moveRight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    /*animation-delay: 2s;*/
+    animation-timing-function: ease;
+  }
+
+  .blueBox {
+    background: blue;
+    animation-name: moveRight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    /*animation-delay: 4s;*/
+    animation-timing-function: cubic-bezier(0, .96, .99, .24);
+    animation-iteration-count: infinite;
+  }
+
+  /*
+  moveRight = animation-name 값
+   */
+  @keyframes moveRight {
+    0% {
+      transform: translate(0, 0);
+      /* 첫번째 인자: X좌표, 두번쨰 인자: Y좌표*/
+    }
+
+    100% {
+      transform: translate(450px, 0);
+    }
+  }
+</style>
+
+</body>
+</html>

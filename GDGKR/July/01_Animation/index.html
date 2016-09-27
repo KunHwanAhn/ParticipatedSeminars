@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+<style type="text/css">
+  div {
+    width: 100px;
+    height: 100px;
+    background: red;
+  }
+
+  .redBox {
+    background: red;
+  }
+
+  .greenBox {
+    background: green;
+  }
+
+  .blueBox {
+    background: blue;
+  }
+</style>
+
+<div class="redBox"></div>
+
+<script type="text/javascript">
+  var div = document.querySelector("div");
+  var player = div.animate([
+    {transform: "translate(0, 0)"},
+    {transform: "translate(450px, 0)", offset: 0.7},
+    {transform: "translate(900px, 0)", offset: 1}
+  ], {
+    duration: 2000,
+    fill: "forwards",
+    easing: 'linear',
+    delay: 1000,
+    // iterations: Infinity
+  });
+
+  // http://www.html5rocks.com/ko/tutorials/speed/high-performance-animations/
+  // player.play();
+  // player.pause();
+  player.onfinish = function () {
+    console.log(">>>>>");
+    player.play();
+  };
+  
+</script>
+
+</body>
+</html>
