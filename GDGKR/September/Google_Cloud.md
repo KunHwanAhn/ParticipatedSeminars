@@ -56,7 +56,7 @@
 - Dataproc = Hadoop & Spark
 - Pub/Sub = 빅데이타 수집용 메시지큐
 - Datalab = 데이타 과학자 작업 공간 (파이썬노트)
-- Dataflow =  aptlwl qocl alc tmxmflald (Spark)
+- Dataflow = 메시지 배치 및 스트리밍 (Spark)
 - Datastudio = 데이터 분석 리포팅 생성도구(BI)
 
 ## 저장소
