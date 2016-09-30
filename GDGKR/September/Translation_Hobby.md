@@ -1,5 +1,6 @@
 # 취미번역
 - 발표자: 장기효 / Captain Pangyo
+- [슬라이드](http://www.slideshare.net/GihyoJoshuaJang/gdg-lightening-talk-1-66493746)
 
 # 개발자에게 영어란?
 - 넘어야할 장벽
