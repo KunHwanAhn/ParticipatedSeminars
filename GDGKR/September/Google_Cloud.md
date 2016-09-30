@@ -1,5 +1,6 @@
 # About GCP
 - 발표자: Google Cloud Sales Engineer, 최명근
+- [슬라이드](https://www.slideshare.net/secret/42oUfURjxfS7wP)
 
 ## Now
 - 사용자가 직접 관리
