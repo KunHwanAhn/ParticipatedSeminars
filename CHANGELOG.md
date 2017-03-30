@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.0.2
+- GDGKR
+  - December: Lightning Talks
+- GDG Campus
+  - November
+- UI/UX
+  - November: Google XFN
+- Docker
+  - March: Docker CI
+
 ## v0.0.1
 - GDGKR
   - July: WebApp
