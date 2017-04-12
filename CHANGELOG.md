@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.0.3 (2017-04-12)
+- GDGKR
+  - March: Next extension in Seoul
+- Kotlin
+  - April: Kotlin Night Seoul
+
 ## v0.0.2
 - GDGKR
   - December: Lightning Talks
