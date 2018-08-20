@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.0.6 (2018-08-20)
+- GDGKR
+- AWS
+- Oracle
+- etc...
+
 ## v0.0.5 (2017-08-01)
 - GDGKR
   - 2017-07
