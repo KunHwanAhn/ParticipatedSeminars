@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Example 1</title>
+  <style>
+    .gallery {
+      display: flex;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+    }
+
+    .gallery img {
+      width: 500px;
+      height: 500px;
+      scroll-snap-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="gallery">
+    <img src="1.png">
+    <img src="2.png">
+    <img src="3.png">
+    <img src="4.png">
+    <img src="5.png">
+    <img src="6.png">
+    <img src="7.png">
+    <img src="8.png">
+    <img src="9.png">
+  </div>
+</body>
+
+</html>
