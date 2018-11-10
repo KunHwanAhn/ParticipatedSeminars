@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Example 2</title>
+  <style>
+    html,
+    body {
+      height: 100%
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    article {
+      overflow-y: scroll;
+      scroll-snap-type: x mandatory;
+      scroll-padding-top: 30px;
+      height: 100%;
+    }
+
+    section {
+      scroll-snap-align: start;
+      height: calc(100% - 30px);
+    }
+
+    header {
+      position: fiexed;
+      width: 90%;
+      height: 30px;
+      top: 0;
+      left: 0;
+      background: #559955;
+    }
+
+    section:first-of-type {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <article>
+    <header>Header</header>
+    <section style="background: #ffaaaa"> Section 1 </section>
+    <section style="background: #aaffaa"> Section 2 </section>
+    <section style="background: #aaaaff"> Section 3 </section>
+  </article>
+</body>
+
+</html>
