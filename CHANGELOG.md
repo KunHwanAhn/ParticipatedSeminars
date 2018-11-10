@@ -1,6 +1,6 @@
 # Changelog
 
-## v18.11.0 (2018-11-10)
+## v18.10.0 (2018-11-10)
 - Chrome Dev Meetup
   - PWA & scroll-snap
 - GDG
