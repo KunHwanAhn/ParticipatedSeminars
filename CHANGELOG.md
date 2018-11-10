@@ -1,5 +1,11 @@
 # Changelog
 
+## v18.11.0 (2018-11-10)
+- Chrome Dev Meetup
+  - PWA & scroll-snap
+- GDG
+  - DevFest 2018
+
 ## v0.0.6 (2018-08-20)
 - GDGKR
 - AWS
