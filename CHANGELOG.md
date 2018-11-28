@@ -1,5 +1,9 @@
 # Changelog
 
+## v18.10.0 (2018-11-28)
+- GDG
+  - DevFest 2018: Fix typo
+
 ## v18.10.0 (2018-11-10)
 - Chrome Dev Meetup
   - PWA & scroll-snap
