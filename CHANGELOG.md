@@ -1,6 +1,10 @@
 # Changelog
 
-## v18.10.0 (2018-11-28)
+## v18.10.2 (2018-11-30)
+- GDG
+  - DevFest 2018: Fix typo
+
+## v18.10.1 (2018-11-28)
 - GDG
   - DevFest 2018: Fix typo
 
