@@ -1,5 +1,6 @@
 # 마이크로서비스 아키텍처에 서비스메시 끼얹기(feat. Istio)
 - 김충섭, 퍼플웍스
+- [발표자료](https://drive.google.com/file/d/1ZfGEN5WmHENxkOH3Lr8roL2aSYF9Qpp4/view)
 
 > 마이크로 서비스와 서비스메시 + Istio
 

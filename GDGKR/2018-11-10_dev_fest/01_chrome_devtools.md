@@ -1,5 +1,6 @@
 # Chrome Devtools를 활용한 성능 측정과 개선
 - 한재엽, Line
+- [발표자료](https://slides.com/jbee/devfest_seoul_2018_performance_optimization_with_chrome_devtools#/)
 
 > 성능이란? UX다.
 
