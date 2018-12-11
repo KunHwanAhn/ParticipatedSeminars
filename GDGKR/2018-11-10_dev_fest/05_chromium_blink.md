@@ -1,5 +1,6 @@
 # Chromium/Blink는 어떻게 동작하는가?
 - 방진호, 삼성전자
+- [발표자료](https://drive.google.com/file/d/1Kwxstgy6cXempa6C8jegWL9_4J0MECnd/view)
 
 ## Chromium
 - 소스코드만 13GB

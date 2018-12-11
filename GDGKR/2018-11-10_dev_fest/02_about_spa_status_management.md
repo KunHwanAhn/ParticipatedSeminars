@@ -1,5 +1,6 @@
 # 실전 SPA 상태관리 톺아보기
 - 김동우
+- [발표자료](https://drive.google.com/file/d/1f4UHB-jvN5w_qtdIhhUArjsK3jwnVbAY/view)
 
 ## SPA?
 - Single Page Application

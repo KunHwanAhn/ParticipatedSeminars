@@ -1,5 +1,6 @@
 # Use JavaScript More Strictly (feat. TypeScript, flow)
 - 이웅재, Studio XID, Inc
+- [발표자료](https://drive.google.com/file/d/1W1VMAI80YJ3D3oCsIJWQasrhl8qVq2q5/view)
 
 > Human Error => Bug
 
