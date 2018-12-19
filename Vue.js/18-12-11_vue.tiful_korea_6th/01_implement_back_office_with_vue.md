@@ -1,5 +1,6 @@
 # Vue.js를 이용한 백오피스 구현기
 - 마광휘, 와인포인트
+- [발표자료](https://www.slideshare.net/gwangwhima/vuejs-125681294)
 
 ## 목차
 - 개발환경 설정

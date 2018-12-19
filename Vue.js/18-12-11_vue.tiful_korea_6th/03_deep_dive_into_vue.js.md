@@ -1,7 +1,8 @@
 # Deep dive into Vue.js
 - 이선협, Cobalt. Inc / Vue.js Korea 페이스북 그룹 관리자
 - Slack @kciter
-- https://github.com/kciter
+- [Github](https://github.com/kciter)
+- [발표자료](https://www.slideshare.net/sunhyouplee/deep-dive-into-vuejs)
 
 ## Target
 - 기초 HTML, CSS, JavaScript를 공부한 후, 첫 프레임워크로 Vue.js를 선택하고 Vue.js 사용에 조금 익숙해진 사람 => 중급자
