@@ -1,5 +1,8 @@
 # Changelog
 
+## v18.12.0 (2019-01-07)
+- [Vue.js] Vue.tiful 6th
+
 ## v18.11.0 (2018-12-11)
 - [GDG] DevFest 2018 - Add the presentation document for each sessions
 - [UI/UX] Designer's perspective & thought
