@@ -1,5 +1,8 @@
 # Changelog
 
+## v18.12.0 (2019-02-21)
+- [ETC] About HR Policy 2019
+
 ## v18.12.0 (2019-01-07)
 - [Vue.js] Vue.tiful 6th
 
