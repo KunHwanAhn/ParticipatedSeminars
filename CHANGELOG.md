@@ -1,5 +1,9 @@
 # Changelog
 
+## v18.13.1 (2019-06-30)
+- [ETC] Styling에 관하여
+- [ETC] 평판관리에 관하여
+
 ## v18.12.0 (2019-02-21)
 - [ETC] About HR Policy 2019
 
