@@ -1,6 +1,6 @@
 # Google Search and JavaScript Sites
 - 조은
-- 발표자료 - TBD
+- [발표자료](https://drive.google.com/file/d/1cArGPApYvbrAVP01X7-Q1BVsRqHyKVDE/view)
 
 # 검색이란?
 - 데이터를 모아서 필요한 데이터만 정제한 후 유용한 것만 다시 검색 결과에 노출시키는 것
