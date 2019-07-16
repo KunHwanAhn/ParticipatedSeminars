@@ -1,5 +1,6 @@
 # Going Big - PWA
 - 장한보람 / GDG WebTech Organizer
+- [발표자료](https://www.slideshare.net/HanboramRobinJang/io-extended-2019-webtech-going-bigpwa?fbclid=IwAR0aj1VF2ClUN7tdvkTBSelWAv4JNAR3EvY-aTHLyhtqAGU04lj4nq2CVDg)
 
 # What is PWA?
 - Progressive Web App

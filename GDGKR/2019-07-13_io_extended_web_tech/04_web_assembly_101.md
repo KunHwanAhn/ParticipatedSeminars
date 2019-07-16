@@ -1,5 +1,6 @@
 #  WebAssembly 101
 - 이현섭 / GDG WebTech Organizer
+- [발표자료](https://www.slideshare.net/hyunseoblee7/webassembly-101?fbclid=IwAR0NY_NLW1zQOaOKMcmRrXZIsYJ6jiaWLuj04T6PzDTk15Dlb51nAexLfso)
 
 # Emscripten
 - C/C++을 JavaScript로 컴파일할 수 있또록 도와주는 SDK

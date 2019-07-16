@@ -1,5 +1,6 @@
 # New Capabilities For The Web / 웹의 확장성
 - 장한보람 / GDG WebTech Organizer
+- [발표자료](https://www.slideshare.net/HanboramRobinJang/io-extended-2019-webtech-new-capabilities-for-the-web?fbclid=IwAR1ckBA6sod8UfhjUQY5-dmN33ihphV6Bft62MbCxki3xatnG4kkW8i8Jdo)
 
 > `브라우저`랑 `인터넷`만 있으면 어디든 갈 수 있어
 

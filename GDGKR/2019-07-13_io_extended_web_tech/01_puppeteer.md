@@ -1,5 +1,6 @@
 # Puppeteer:Getting Started
 - 이현섭 / GDG WebTech Organizer
+- [발표자료](https://www.slideshare.net/hyunseoblee7/puppeteer-getting-started?fbclid=IwAR14_jWTmmGq_O6rK48ECQ5qkCrtDU2m-pOfxQInDWdLqdo3HbFia2eTxcQ)
 - https://github.com/HyunSeob/puppeteer-getting-started
 
 # What is Pupperteer?
