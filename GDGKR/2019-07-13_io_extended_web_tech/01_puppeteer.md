@@ -27,7 +27,7 @@
 const puppeteer = require('puppeteer')
 
 async function doScreenShot() {
-  const browser = await puppeteer.launch({headless: true})
+  const browser = await puppeteer.launch({ headless: true })
   const page = await browser.newPage()
 
   await page.setViewport({
@@ -49,7 +49,7 @@ doScreenShot()
 const puppeteer = require('puppeteer')
 
 async function generatePdf() {
-  const browser = await puppeteer.launch({headless: true})
+  const browser = await puppeteer.launch({ headless: true })
   const page = await browser.newPage()
 
   await page.setViewport({
