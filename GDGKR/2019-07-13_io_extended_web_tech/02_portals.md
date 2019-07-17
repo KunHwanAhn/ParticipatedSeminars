@@ -12,7 +12,7 @@
 - The Monolith -> Front & Back -> MicroServiced
 
 > 하나의 조직이 하나의 기능을 담당한다! 하나의 팀은 Backend + Frontend + Design + Plan
-Q1. 조직이 저런 구성이라면 각 조직별의 특성이 녹아들어서 전체적인 Look & Feel이 다르면?
+> Q1. 조직이 저런 구성이라면 각 조직별의 특성이 녹아들어서 전체적인 Look & Feel이 다르면? 이 부분은 여전히 고민스러운 부분
 
 ## End-to-End Team with Micro Frontend
 - https://micro-frontends.org/0-model-store/
