@@ -1,5 +1,8 @@
 # Changelog
 
+## v19.07.0 (2019-08-03)
+- [GDG] Google I/O Extended WebTech 2019
+
 ## v19.06.0 (2019-06-30)
 - [GDG] Google I/O Extended 2019
 
