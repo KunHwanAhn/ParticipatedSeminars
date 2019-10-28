@@ -1,6 +1,6 @@
 # WebGPU is coming
 - 방진호, zino@chromium.org / GDG Suwon Organizer
-- 발표자료 - TBD
+- [발표자료](https://docs.google.com/presentation/d/15vO2rnCs3WvE9XNV2FPULEsTFq7gLRtpH_2wg97krAE/edit#slide=id.g6534a83c91_1_0)
 
 # Contents
 - Introduce WebGPU

@@ -1,6 +1,6 @@
 # Vertical Align(알다가도 모르겠는 너란 녀석)
 - 태재영, 지그재그
-- 발표자료 - TBD
+- [발표자료](https://www.slideshare.net/ssuser22e7fc/gdg-seoul-devfest-2019-vertical-align)
 
 # 수직 정렬을 맞추는 방법?
 - padding

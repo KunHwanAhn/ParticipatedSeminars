@@ -1,7 +1,7 @@
 # 웹서비스에서 MSA 톺아보기
 - 김한성, SKT
 - DB, Message Queue, Cache 등의 대략적인 설명과 사용/응용 예시를 설명합니다.
-- 발표자료 - TBD
+- [발표자료](https://docs.google.com/presentation/d/1bzgJUG9Lz3EJ7S1HQbZtxcjWzdbjUbFmSv95N1bJmQI/edit)
 
 > Serverless(Cloud)로 Cloud에서 운영하기
 

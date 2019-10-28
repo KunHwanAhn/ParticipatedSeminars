@@ -1,6 +1,6 @@
 # 아토믹 디자인 패턴으로 디자이너와 소통하기
 - 김나영, 케어랩스 굿닥
-- 발표자료 - TBD
+- [발표자료](https://speakerdeck.com/feel5ny/atomig-paeteoneuro-dijaineowa-hyeobeobhagi)
 
 # Contents
 - UI설계는 왜 중요한가?

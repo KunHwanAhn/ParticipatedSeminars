@@ -1,6 +1,6 @@
 # 프로그래밍의 미래, 함수형 프로그래밍
 - 서재원, 푸른중학교
-- 발표자료 - TBD
+- [발표자료](https://docs.google.com/presentation/d/1Y63H6x-OVUMzh25KqX8SNmoK_tDoAm_PpbjAktX3GZY/edit#slide=id.p1)
 
 # 목차
 - 프로그래밍의 미래, 함수형 프로그래밍
