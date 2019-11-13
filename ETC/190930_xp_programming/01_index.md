@@ -1,5 +1,6 @@
 # Spring Boot & eXtreme Programming
 - MSA Service Meetup
+- [발표자료](https://www.slideshare.net/PivotalKorea/20190930-meetupspring-bootxp)
 - 설문조사 - https://ko.surveymonkey.com/r/7PTGBZP
 
 # 요 근래 언급하는 주제들
