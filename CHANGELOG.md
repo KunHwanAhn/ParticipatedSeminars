@@ -1,5 +1,8 @@
 # Changelog
 
+## v19.10.0 (2019-11-13)
+- [GDG] DevFest 2019
+
 ## v19.09.0 (2019-09-30)
 - [ally] 모두를 위한 접근성
 - [ETC] eXtreme Programming & Introduce Spring framework
