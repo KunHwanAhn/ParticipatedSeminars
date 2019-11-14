@@ -1,6 +1,5 @@
 # What's New at Mozilla
 - Ali Spivakm / Twitter @alispivak
-- Kathy Giory
 
 > Mozilla makes browsers, apps, code and tools that put people before profit.
 
