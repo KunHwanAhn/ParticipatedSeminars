@@ -1,6 +1,6 @@
 # HTTP/3 시대의 웹 최적화 기술 이해햐기
 - 강상진, 빈스마트
-- 발표자료 - TBD
+- [발표자료](https://drive.google.com/file/d/1H7UYxOYwYWB-20GxKzS5ZziwPAoAAOAC/view)
 
 > HTTP/3 Faster and Securer
 

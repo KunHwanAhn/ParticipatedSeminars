@@ -1,6 +1,6 @@
 # VisBug와 함께 하는 오픈소스 기여 이야기
 - 안도형, 스튜디오씨드 코리아
-- 발표자료 - TBD
+- [발표자료](https://speakerdeck.com/rinae/visbugwa-hamgge-haneun-opeunsoseu-giyeo-iyagi)
 
 > VisBug 소개 및 활용 방법 공유
 > 오픈소스 생태계에 기여해보고픈 분들을 위해 VisBug 프로젝트에 기여하며 얻었던 경험 공유
@@ -21,16 +21,22 @@
 - 속성 변화 감지 등
 
 ## Shadow DOM
-- ???
+- 엘리먼트의 스타일과 마크업을 캡슐화
+- 브라우저의 모든 엘리먼트에 대한 CSS와 스크립트는 `전역으로 적용된다`는 문제를 해결
 
 - 웹 컴포넌트와 기능함수의 조합으로 이루어짐
-- 컴포넌트의 스타일링은 PostCSS + ???
+- 컴포넌트의 스타일링은 PostCSS + Constructable Stylesheet 활용
+- Ava + Puppeteer로 E2E Testing
 
 # VisBug의 기능
 - Inspect
 - Accessibility
 - Move
 - Margin / Padding
+- Flexbox align
+- Hue shift
+- Shadow
+- ETC...
 
 # VisBug 활용
 - 개발자로서 어지간한 기능은 Dev Tools를 열어 해겨할 수 있는 것들이지만, 화면 넓게 쓰고 싶을 때도 유용
