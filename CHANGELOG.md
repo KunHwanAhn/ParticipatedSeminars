@@ -1,5 +1,9 @@
 # Changelog
 
+## v19.11.0 (2019-12-12)
+- [GDG] DevFest WebTech with Chrome Dev Summit 2019
+- [mozilla] Roadshow Asia 2019
+
 ## v19.10.0 (2019-11-13)
 - [GDG] DevFest 2019
 
