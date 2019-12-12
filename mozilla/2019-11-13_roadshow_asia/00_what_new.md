@@ -1,3 +1,6 @@
+# Event URL
+- https://ti.to/mdn/mozilla-developer-roadshow-2019-Asia-Seoul
+
 # What's New at Mozilla
 - Ali Spivakm / Twitter @alispivak
 
