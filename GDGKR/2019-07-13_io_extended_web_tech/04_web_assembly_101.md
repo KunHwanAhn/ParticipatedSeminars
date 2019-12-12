@@ -98,7 +98,7 @@ int main() {
 
 # What would com next?
 - Thread / Shared Memory Support
-- ECMASvript Module Integration
+- ECMAScript Module Integration
 - Garbage Collection
 - And even more language support!
 
@@ -125,4 +125,4 @@ int main() {
 - https://webassembly.studio/
 
 # Reference
-- http://ujinbot.blogsopt.com/2013/07
+- ~http://ujinbot.blogsopt.com/2013/07~ 페이지 폭파됨
