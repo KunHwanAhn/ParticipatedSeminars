@@ -1,5 +1,6 @@
 # 10 things I hate about Web Animation (and how to fix them)
 - Brian Birtles, birchill
+- [발표자료](https://www.youtube.com/watch?v=QybMNLFoK5s&list=PLo3w8EB99pqLG7lTta4Ex0EjPdmnf7vD7&index=2)
 
 # Animation is
 - 복잡합니다
