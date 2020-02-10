@@ -1,5 +1,6 @@
 # Making CSS from Good to Great: The Power of Subgrid
 - Hui Jing Chen
+- [발표자료](https://www.youtube.com/watch?v=Ksc0dIg-DFQ&list=PLo3w8EB99pqLG7lTta4Ex0EjPdmnf7vD7&index=8)
 
 # Web layouts over the years
 1. 텍스트와 이미지로만 이루어져 있었음.

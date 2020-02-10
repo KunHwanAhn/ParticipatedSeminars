@@ -1,5 +1,6 @@
 # Developing for Mixed Reality on the Open Web Platform
 - Philip Lamb
+- [발표자료](https://www.youtube.com/watch?v=dmEL8eA2ZbE&list=PLo3w8EB99pqLG7lTta4Ex0EjPdmnf7vD7&index=7)
 
 > As a developer, why should I care about mixed reality?
 

@@ -1,5 +1,8 @@
 # Changelog
 
+## v20.01.0 (2020-02-10)
+- [mozilla] Roadshow Asia 2019 - 발표자료 추가
+
 ## v19.11.0 (2019-12-12)
 - [GDG] DevFest WebTech with Chrome Dev Summit 2019
 - [mozilla] Roadshow Asia 2019

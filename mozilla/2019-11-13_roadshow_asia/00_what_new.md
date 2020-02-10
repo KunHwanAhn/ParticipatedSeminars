@@ -3,6 +3,7 @@
 
 # What's New at Mozilla
 - Ali Spivakm / Twitter @alispivak
+- [발표자료](https://www.youtube.com/watch?v=jv4HdiX0pM4&list=PLo3w8EB99pqLG7lTta4Ex0EjPdmnf7vD7&index=1)
 
 > Mozilla makes browsers, apps, code and tools that put people before profit.
 
