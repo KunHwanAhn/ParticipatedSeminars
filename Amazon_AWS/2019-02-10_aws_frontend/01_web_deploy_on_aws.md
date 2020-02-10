@@ -1,5 +1,6 @@
 # Static Web Hosting with AWS
 - 박찬민, Frontend Developer @버드뷰(화해)
+- [발표자료](./FE-Meetup__static-website-hosting.pdf)
 
 # 웹 사이트를 만드는 대략적인 순서
 - 웹 사이트를 만든다. - FE 개발자가 잘하는 것
