@@ -32,6 +32,19 @@
    - Poor: more than 0.25
 - [Timing for bringing page experience to Google Search](https://developers.google.com/search/blog/2020/11/timing-for-page-experience)
 
+#### LCP
+- Optimized # of dom notes
+- Added CDN for assets
+- Refined compression levels for static & dynamic assets
+
+#### FID
+- Ensured content served from server leads to min shift on browswer
+
+#### CLS
+- Limited # of images in ATF
+- Prioritized first party scripts
+- Replaced heave 3rd party scripts
+
 ## POWERFUL
 - More capability
 - More diverse application
