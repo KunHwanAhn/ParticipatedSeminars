@@ -33,6 +33,7 @@
 - [Timing for bringing page experience to Google Search](https://developers.google.com/search/blog/2020/11/timing-for-page-experience)
 
 ## POWERFUL
-- ?
+- More capability
+- More diverse application
 
 TODO: 다시 정리 필요!
