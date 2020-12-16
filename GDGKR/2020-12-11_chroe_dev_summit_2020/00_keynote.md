@@ -1,7 +1,7 @@
 # Keynote
 
 - https://developer.chrome.com/devsummit/
-- [Youtube](https://www.youtube.com/watch?v=14pb8t1lHws&list=PLNYkxOF6rcIDzLmWaDwfHVZJl1Q5RFgOR&index=16)
+- [Youtube](https://youtu.be/14pb8t1lHws)
 
 ## The three core areas
 - SAFE

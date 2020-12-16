@@ -1,6 +1,6 @@
 # What's new in DevTools
 - Jecelyn Yeen / Developer Advocate
-- [Youtube](https://www.youtube.com/watch?v=QsOF9SJJdAA&list=PLNYkxOF6rcIDzLmWaDwfHVZJl1Q5RFgOR&index=3)
+- [Youtube](https://youtu.be/QsOF9SJJdAA)
 
 ## GREAT for you
 - G - Great Tools

@@ -1,6 +1,6 @@
 # The web ahead
 - Paul Kinlan / Alex Russell
-- [Youtube](https://www.youtube.com/watch?v=RDRcP1JX0TI&list=PLNYkxOF6rcIDzLmWaDwfHVZJl1Q5RFgOR&index=14)
+- [Youtube](https://youtu.be/RDRcP1JX0TI)
 
 > The web is a vital part of people's day-to-day lives
 

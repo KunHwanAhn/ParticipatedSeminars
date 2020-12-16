@@ -1,6 +1,6 @@
 # Making the web more visual with Web Stories
 - Terry Ednacot / Google Program Manager
-- [Youtube](https://www.youtube.com/watch?v=mp6IUgUXJds&list=PLNYkxOF6rcIDzLmWaDwfHVZJl1Q5RFgOR&index=13)
+- [Youtube](https://youtu.be/mp6IUgUXJds)
 
 ## Web Stories?
 - `Web Stories` are a web-based vsersion of the popular stories format that blend video, audio, images, animation, and text to create a dynamic consumption experience

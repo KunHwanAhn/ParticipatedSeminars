@@ -1,6 +1,6 @@
 # Structured data for developers
 - Martin Splitt
-- [Youtube](https://www.youtube.com/watch?v=bUwmHX_EPmw&list=PLNYkxOF6rcIDzLmWaDwfHVZJl1Q5RFgOR&index=12)
+- [Youtube](https://youtu.be/bUwmHX_EPmw)
 
 ## What is Structured Data
 - Additional machine-readable, semantic information about your content

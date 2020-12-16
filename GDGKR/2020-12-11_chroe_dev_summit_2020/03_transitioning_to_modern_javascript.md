@@ -1,7 +1,7 @@
 # Transitioning to modern JavaScript
 - Houssein Djirdeh / Developer Relations Engineer
 - Jason Miller / Developer Relations Engineer
-- [Youtube](https://www.youtube.com/watch?v=cLxNdLK--yI&list=PLNYkxOF6rcIDzLmWaDwfHVZJl1Q5RFgOR&index=6)
+- [Youtube](https://youtu.be/cLxNdLK--yI)
 
 > 아래 질문들이 모던 자바스크립트인지 아닌지 확인하자!
 

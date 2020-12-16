@@ -1,6 +1,6 @@
 # Extending CSS with Houdini
 - Una Kravets / Developer Advocate
-- [Youtube](https://www.youtube.com/watch?v=5eBar5TI71M&list=PLNYkxOF6rcIDzLmWaDwfHVZJl1Q5RFgOR&index=4)
+- [Youtube](https://youtu.be/5eBar5TI71M)
 - https://houdini.how/about
 
 ## What is Houdini
