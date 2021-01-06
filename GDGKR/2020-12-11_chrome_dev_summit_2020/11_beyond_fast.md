@@ -32,3 +32,4 @@
 
 ## <portal src="..."></portal>
 - Not **iframe**
+- [Portals](https://github.com/WICG/portals/blob/master/README.md)
