@@ -1,5 +1,9 @@
 # Changelog
 
+## v21.07.0 (2021-07-05)
+- [GDG] Chrome Dev Summit 2020 (#3)
+- [Woowa Tech] 우아콘 2020 (#4)
+
 ## v20.01.0 (2020-02-10)
 - [mozilla] Roadshow Asia 2019 - 발표자료 추가
 
