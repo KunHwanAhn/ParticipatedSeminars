@@ -1,6 +1,7 @@
 # Changelog
 
 ## v21.07.0 (2021-07-05)
+- [aws] Amazon EKS로 간단한 웹 애플리케이션 구축하기 (#2)
 - [GDG] Chrome Dev Summit 2020 (#3)
 - [Woowa Tech] 우아콘 2020 (#4)
 
