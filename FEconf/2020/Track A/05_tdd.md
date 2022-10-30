@@ -36,7 +36,7 @@
    - it
 
 ## Live Coding
-- [Live Coding Diff](https://github.com/KunHwanAhn/frontend-tdd-feconf2020/pull/1)
+- [Live Coding Diff](https://github.com/KunHwanAhn/frontend-tdd-feconf2020/pull/1/files)
 
 ## 정리
 - 만능이 아니다
