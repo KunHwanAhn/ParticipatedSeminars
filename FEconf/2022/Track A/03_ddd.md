@@ -1,5 +1,5 @@
 # 프론트엔드 DDD를 만나다
-- [Youtube](https://youtu.be/jZNk-Ncez6E?t=8711)
+- [Youtube](https://youtu.be/FeDBlSBPUz8?t=63)
 
 ## 목차
 - DDD란 무엇일까?
