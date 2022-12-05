@@ -1,5 +1,8 @@
 # Changelog
 
+## v22.12.0 (2022-12-05)
+- [FEconf] FE Conf 2022 영상 주소 수정 (93be04e)
+
 ## v22.10.0 (2022-10-30)
 - [FEconf] FEconf 2020 (Track A) - TDD (#13)
 - [FEconf] FEconf 2022 (Track B) (#12)

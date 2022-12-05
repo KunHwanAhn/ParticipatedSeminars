@@ -1,5 +1,5 @@
 # 엣지 컴퓨팅 - 프론트엔드 포텐셜 (다시) 끌어올리기
-- [Youtube](https://youtu.be/jZNk-Ncez6E?t=15588)
+- [Youtube](https://youtu.be/YImV7OfPqSo?t=82)
 
 ## 시작하기 전에,
 - **Front-end**가 정확히 뭐죠?

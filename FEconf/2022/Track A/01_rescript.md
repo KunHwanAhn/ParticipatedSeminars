@@ -1,5 +1,5 @@
 # ReScript 같이 해요
-- [Youtube](https://youtu.be/jZNk-Ncez6E?t=2720)
+- [Youtube](https://youtu.be/208ZBisLuXw?t=75)
 
 ## 목차
 - 가볍게 알아보기

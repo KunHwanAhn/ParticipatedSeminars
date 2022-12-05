@@ -1,5 +1,5 @@
 # 내 import 문이 그렇게 이상했나요?
-- [Youtube](https://youtu.be/ajtpcFkXqqg?t=12130)
+- [Youtube](https://youtu.be/mee1QbvaO10?t=77)
 
 ## 우리를 괴롭히는 에러 메시지들
 
