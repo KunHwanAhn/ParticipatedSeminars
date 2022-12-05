@@ -1,7 +1,7 @@
 # 텍스트 에디터? 그게 뭘 만드는건데?
 - 에디터의 발자취와 새로운 발자국 (React + contenteditable)
 - React 기반의 WYSIWYG 에디터로의 도전
-- [Youtube](https://youtu.be/jZNk-Ncez6E?t=11718)
+- [Youtube](https://youtu.be/xDyUFE1pmmY?t=76)
 
 ## 목차
 - Intro
