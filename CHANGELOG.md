@@ -1,5 +1,12 @@
 # Changelog
 
+## v23.01.0 (2023-04-05)
+- [GDG] Devfest Webtech 2022 (임시) (#23)
+- [Kakao] if(kakao) 2022 ESG (#24)
+- [Kakao] if(kakao) 2022 Frontend (#19)
+- [GDG] Devfest 2022 (#20)
+- [AWS] Frontend 2022 - 프로그래머스 프론트엔드 아키텍처 변천사 (#18)
+
 ## v22.12.0 (2022-12-05)
 - [FEconf] FE Conf 2022 영상 주소 수정 (93be04e)
 
