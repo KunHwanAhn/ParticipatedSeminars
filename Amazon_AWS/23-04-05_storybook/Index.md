@@ -2,6 +2,7 @@
 - Florian Ludot
 - Avanssion Inc.
 - [발표자료](https://docs.google.com/presentation/d/1t3Hcpeo_DfmhtbEs1JKas-tOlagahEpp/edit#slide=id.g221e1dbd759_0_2)
+- [Youtube](https://youtu.be/MFhzwwcmWj0?t=17)
 
 ## Who is this for
 - Designers
