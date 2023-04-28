@@ -1,4 +1,5 @@
 # 테크리더의 공감 테크 쇼
+- [Youtube](https://www.youtube.com/live/vga0PZK6AvI?feature=share&t=1355)
 
 ## 개발보다 어려운 피드백과 1 on 1
 - 나만의 팀 리딩 노하우와 동기부여를 하는 방법
