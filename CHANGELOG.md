@@ -1,5 +1,9 @@
 # Changelog
 
+## v23.04.0 (2023-04-28)
+- [AWSKRUG] Storybook을 통한 UI 개발 프로세스 간소화 (#28)
+- [Woowa Tech] 우아한 테크세미나 - 시니어 공감 토크쇼 (#27)
+
 ## v23.01.0 (2023-04-05)
 - [GDG] Devfest Webtech 2022 (임시) (#23)
 - [Kakao] if(kakao) 2022 ESG (#24)
