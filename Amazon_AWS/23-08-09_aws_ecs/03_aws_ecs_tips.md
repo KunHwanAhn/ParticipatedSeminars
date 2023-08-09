@@ -479,11 +479,11 @@
 - 로드밸런서 드레인이 완료되면 ECS Agent는 컨테이너에 SIGTERM 신호를 전송
    - 애플리케이션이 수행 중인 작업을 완료하도록 경고하는 것
    - 해당 신호를 받으면 애플리케이션의 Graceful 셧다운 동작을 해야하지만... 대부분 무시함
-   ```js
-   process.on('SIGTERM', function () {
-      server.close();
-   })
-   ```
+      ```js
+      process.on('SIGTERM', function () {
+         server.close();
+      })
+      ```
    - SIGTERM 신호 이후 기본 대기 시간 이후에 SIGKILL 명령이 내려짐 (ECS_CONTAINER_STOP_TIMEOUT : 30s)
 - 애플리케이션의 응답 속도가 평균 1초라면 이 시간을 2s로 설정하는 것이 권장됨
    - 가장 좋은 방법은... SIGTERM 처리를 애플리케이션에서 처리하자
