@@ -1,6 +1,7 @@
 # Next.js13으로 알아보는 FE렌더링 방식(SSR vs RSC)
 - 윤해수 @ 카카오엔터프라이즈
 - [Meetup](https://www.meetup.com/awskrug/events/294944079)
+- [Sample Code](https://github.com/KunHwanAhn/awskrug-nextjs-rsc-sample)
 
 ```
 - FE렌더링 방식의 변화과정을 짚어보고 Next.js13에서의 RSC가 기존의 SSR과 무엇이 다른지 함께 확인해요.
@@ -242,3 +243,6 @@ $ npx craete-next-app@latest # Next v13.4
    - 기존의 pages 라우터보다 적게 나올 것으로 예상
    - 페이지에서 자주 바뀌는 컴포넌트가 있다면 SSR을 썼어야 했다.
    - RSC에서 자주 바뀌지 않는 데이터는 재사용할 것이고, 바뀌는 데이터만 사용할 것이기에 적게 사용할 것 같다
+
+## 참고 문서
+- [Next.js 13 으로 알아보는 FE 렌더링 방식 (SSR vs RSC)](https://haesoo9410.tistory.com/404)
