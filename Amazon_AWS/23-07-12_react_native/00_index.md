@@ -1,5 +1,7 @@
 # React Native Webview를 사용해서 React로만 앱 만들기(+ CI/CD)
 - 윤창현 @ granter
+- [youtube](https://www.youtube.com/watch?v=Ecg52wAlYus)
+- [Meeup](https://www.meetup.com/awskrug/events/294453954)
 
 ## Native App
 
