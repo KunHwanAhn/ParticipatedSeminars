@@ -1,5 +1,6 @@
 # Next.js13으로 알아보는 FE렌더링 방식(SSR vs RSC)
 - 윤해수 @ 카카오엔터프라이즈
+- [발표 자료](https://github.com/public-frontend-group/meetup/blob/master/keynotes/AWSKRUG-Frontend-230809-SSRvsRSC.pdf)
 - [Meetup](https://www.meetup.com/awskrug/events/294944079)
 - [Sample Code](https://github.com/KunHwanAhn/awskrug-nextjs-rsc-sample)
 
@@ -37,9 +38,9 @@
 - 완성된 HTML로 SEO 해결
 - JS를 받아와서 하이드레이션으로 CSR도 가능
    - 하이드레이션으로 인해서 다른 페이지 이동하더라도 HTML을 새로 고침하지 않음
-- React Server Componet
+- React Server Componet의 등장
 - 요청 위치가 바뀜으로서 강점을 가짐
-   - 자주 바뀌는 컴포넌트가 있다면 SSR
+   - Next.js에서는 자주 바뀌는 컴포넌트가 있다면 SSR
    - 기존 SSR은 페이지 단위 이므로 페이지 단위로 전략
    - RSC는 특정 컴포넌트는 캐시를 사용하고, 다른 컴포넌트는 항상 새로 그리는 등의 전략 가능
    - 적절하게 서버의 부하를 조절
@@ -48,8 +49,10 @@
 ## Next.js
 - 리액트를 위한 오픈소스 JS 웹 프레임워크
 - 풀스택 웹 어플리케이션을 만들 수 있음 = 서버 존재
-- SSR!
+- 다양한 기능을 제공하지만 핵심은 SSR!
 - React 18 개발 당시 RSC라는 개념 등장
+   - 컴포넌트 단위로 서버에서 생성할 수 있다는 가능성 시사
+   - 극단적으로 본다면 브라우저에 JS가 필요없을 수 있음
 - 기술적 이슈로 Next.js에 Server Componet라는 이름으로 추가
 - React 공식 문서에서도 최신 리액트 사용하려면 Next.js 사용 권장
 
@@ -69,17 +72,18 @@ $ npx craete-next-app@latest # Next v13.4
 
 ##### SSR - Pages Router
 - 페이지 기반 라우팅은 파일 기반
-   - pages/index.tsx: '/' 페이지를 의미
-   - pages/todos/index.tsx: '/todos'를 의미
-   - pages/todos/[id].tsx: '/todos/:id'를 의미
+   - `pages/index.tsx`: '/' 페이지를 의미
+   - `pages/todos/index.tsx`: '/todos'를 의미
+   - `pages/todos/[id].tsx`: '/todos/:id'를 의미
+   - `_app.tsx`: 전체 공통 레이아웃 담당
 
 ##### RSC - App Router
 - 앱 라우터 방식은 Next 13에서 도입
 - 폴더기반으로 Nested 하게 동작
-- 폴더 내의 page.tsx가 페이지 담당
-- 폴더 내의 layout.tsx 레이아웃 담당
-- 폴더 내의 loading.tsx 로딩 UI 담당
-- 폴더 내의 error.tsx가 에러 UI 담당
+- 폴더 내의 `page.tsx`가 페이지 담당
+- 폴더 내의 `layout.tsx`가 레이아웃 담당
+- 폴더 내의 `loading.tsx`가 로딩 UI 담당
+- 폴더 내의 `error.tsx`가 에러 UI 담당
 - TodoList 컴포넌트 내부에 비동기 함수 작성
    - Next13에서는 컴포넌트에서도 Next 내장 fetch 사용 가능
    - 컴포넌트는 기본적으로 서버 컴포넌트이기에 바로 사용 가능
@@ -95,7 +99,7 @@ $ npx craete-next-app@latest # Next v13.4
 - APP 라우터에서 fetch쪽 로직 수정
    - 기존에는 디폴트로 작성해서 SSG
    - SSR로 변경하기 위해 `no-store`
-   - getServerSideProps와 비교하기 위함
+   - `getServerSideProps`와 비교하기 위함
 
 ### fetch는 브라우저의 fetch 일까?
 - next 서버 컴포넌트의 fetch는 브라우저의 fetch(window.fetch)와는 다름
@@ -106,6 +110,7 @@ $ npx craete-next-app@latest # Next v13.4
 - next/link로 된 todos 클릭 시 CSR 동작
    - 새로 HTML 다시 받아오지 않음
    - 새로 고침이 없어서 흰페이지가 보이지 않음
+   - 단순 추가 청크 파일들만 받아옴
 - 위 상태에서 새로고침 혹은 주소입력
    - 정상적으로 SSR 동작함을 확임
       - 서버에서 API를 내부적으로 호출하고 HTML을 완성하여 보냄
@@ -128,15 +133,17 @@ $ npx craete-next-app@latest # Next v13.4
    - 최초 이후 js파일 받아오지 않음.
       - Link때문에 최초 todos로 시작하는 무언가를 받아옴.
       - 그러나 /todos로 이동했을 때 json이 없음
-   자세히 보기를 클릭하더라도 별다른 네트워크 요청 X
+   - 자세히 보기를 클릭하더라도 별다른 네트워크 요청 X
 
 ### RSC에서는 어떻게 가능할까?
 - RSC가 들어간 파일을 살펴보면 동작 추측 가능
    - JSON과 비슷한 형태로 되어 있음
    - 자신의 정보를 위치값으로 추정되는 데이터로 갖고 있음
 - Next와 React 코드에 파싱함수 존재
-   - next.js/packages/next/src/compiled/react-server-dom-webpack / 컴파일된 공간이 존재
-   - react 경로 추가 필요!
+   - [next.js/packages/next/src/compiled/react-server-dom-webpack](https://github.com/vercel/next.js/tree/v13.4.13/packages/next/src/compiled/react-server-dom-webpack)
+      - 컴파일된 공간이 존재
+   - [react/packages/react-server/src/ReactFlightReplyServer.js](https://github.com/facebook/react/blob/4e3618ae41669c95a3377ae615c727f74f89d141/packages/react-server/src/ReactFlightReplyServer.js#L379-L502)
+      - 함수 존재
 - 서버 로그를 확인해보면 프리로드 시 이미 모든 요청 발생
    - 이 정보를 바탕으로 RSC 파일을 보낸 것
    - 결과적으로 서버 컴포넌트는 페이지를 바꾸더라도 JS가 필요 없음
@@ -178,9 +185,11 @@ $ npx craete-next-app@latest # Next v13.4
    - 서버 컴포넌트 이기 때문 -> 서버에서만 렌더링
    - 클라이언트 번들링에 포함되지 않음
 - 전반적인 JS 파일도 줄어들게 됨
-   - TTI에서 스ㅡ리밍과 더불어 강점
+   - TTI에서 스트리밍과 더불어 강점
    - 기존 SSR은 JS에 모든 내용을 담아야 함 = LCP, FCP만 CSR보다 빠름
    - 스트리밍으로 인해 TTI 감소, JS파일 감소로 인한 개선 효과를 모드 가져갈 수 있음
+
+## 결론
 
 ### 서버
 - 극단적인 SSR이 가능해짐
@@ -194,12 +203,14 @@ $ npx craete-next-app@latest # Next v13.4
 
 ### 클라이언트
 - 네트워크 요청이 매우 가벼워짐
+- 초기 렌더링 속도 증가
 
 ### 개발
 - 유지보수에 유리한 코드 작성
    - 페이지에 작성했어야 했던 비즈니스 로직을 컴포넌트로 위임
 - 관심사의 분리 효과 증대
-   - 클라이언트 컴포넌트와 서버컴포넌트 분리하여 작성    - 자연스럽게 관심사의 분리
+   - 클라이언트 컴포넌트와 서버컴포넌트 분리하여 작성
+   - 자연스럽게 관심사의 분리
 - 복잡해진 컴포넌트 트리 구조
    - 리액트 훅이나 브라우저 API를 사용하려면 반드시 클라이언트 컴포넌트로 만들어야 함
    - 클라이언트 컴포넌트 하위의 서버컴포넌트는 제약이 존재
