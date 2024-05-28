@@ -1,5 +1,4 @@
 # DevOps on AWS - CI/CD
-- [발표자료](https://mature-glade-1aa.notion.site/CJ-Oliveyoung-CI-CD-Workshop-for-ECS-2024-3-6-a751c7ac67ca4370b8b0cf6a6f993dec)
 - 이상현님 / AWS Solutions Architect
 
 ## DevOps
