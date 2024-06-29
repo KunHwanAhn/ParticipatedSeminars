@@ -1,5 +1,13 @@
 # Changelog
 
+## v24.06.0 (2023-06-29)
+- [GDG] 2024 채용 혹한기에서 살아남기 (#40)
+- [ETC] 시니어 개발자 너머의 성장: 대규모 조직을 위한 스태프 엔지니어 (#36)
+- [AWS] Next.js13으로 알아보는 FE렌더링 방식(SSR vs RSC) (#35)
+- [AWS] AWS ECS (#34)
+- [AWS] React Native Webview를 사용해서 React로만 앱 만들기(+ CI/CD) (#32)
+- Google I/O 2023 (#31)
+
 ## v23.04.0 (2023-04-28)
 - [AWSKRUG] Storybook을 통한 UI 개발 프로세스 간소화 (#28)
 - [Woowa Tech] 우아한 테크세미나 - 시니어 공감 토크쇼 (#27)
