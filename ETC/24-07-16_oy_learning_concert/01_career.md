@@ -177,3 +177,5 @@
 - 성공 기회는 주변의 좋은 사람들로부터 온다
 - 세상에 혼자할 수 있는 일은 없음: 나 -> 우리
 - 이 바닥 좁다! 상사/동료들이 커리어 성장의 조력자들이다
+
+> Success is the ability to go from one failure to another with no loss of enthusiasm - Winston Churchill
