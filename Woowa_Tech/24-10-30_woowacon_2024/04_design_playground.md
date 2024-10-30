@@ -99,6 +99,3 @@
 - URL을 생성하여 공유하자
 - encoding: lz-string => base64
 - decoding: base64 => lz-string
-
-## 적용 사례 및 성과
-- TSDoc 예제 코드
